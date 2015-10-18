@@ -1,0 +1,91 @@
+"*":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+    softTabs: false
+    invisibles: {}
+    softWrapAtPreferredLineLength: true
+  core:
+    disabledPackages: [
+      "space-tab"
+      "linter-scss-lint"
+    ]
+    ignoredNames: [
+      ".git"
+      ".idea"
+      ".settings"
+    ]
+    themes: [
+      "atom-material-ui"
+      "xeta-syntax"
+    ]
+  "autoclose-html":
+    makeNeverCloseElementsSelfClosing: true
+    closeOnEndOfOpeningTag: true
+  linter:
+    showErrorInline: true
+    statusBar: "None"
+    ignoredLinterErrors: [
+      "phpcs"
+    ]
+    lintOnFly: false
+  "exception-reporting":
+    userId: "2350ccb4-860c-579f-719f-3eadda3b1ed4"
+  welcome:
+    showOnStartup: false
+  "linter-phpcs":
+    executablePath: "/var/www/Sites/FrenchModdingTeam/bin/phpcs"
+    codeStandardOrConfigFile: "/var/www/Sites/FrenchModdingTeam/vendor/cakephp/cakephp-codesniffer/CakePHP"
+    ignore: "*.ctp"
+    autoConfigSearch: false
+  "file-icons": {}
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "tabs-to-spaces":
+    onSave: "untabify"
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+    suggestionListFollows: "Word"
+    confirmCompletion: "tab and enter"
+  "tree-view": {}
+  minimap: {}
+  docblockr:
+    spacer_between_sections: true
+    return_description: false
+  "atom-minjs":
+    minifyOnSave: true
+  "travis-ci-status": {}
+  autosave:
+    enabled: true
+  "git-diff": {}
+  "spell-check": {}
+  tabs:
+    tabScrolling: true
+  "isotope-ui":
+    backgroundColor: "false"
+    customBackgroundColorPicker:
+      red: 91
+      green: 91
+      blue: 91
+      alpha: 1
+    fontFamily: "Clear Sans"
+  "save-session":
+    windowX: -8
+    windowY: -8
+    windowWidth: 1936
+    windowHeight: 1056
+    fullScreen: false
+  "keyboard-localization":
+    useKeyboardLayout: "fr_FR"
+  "atom-material-ui":
+    showTabIcons: "Show on all tabs"
+    compactTreeView: true
+    rippleAccentColor: true
+    accentColor: "Cyan"
+    depth: true
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    remoteProjectsConfig: []
+  "nuclide-file-tree-deux": {}
+  "nuclide-buck-files": {}
